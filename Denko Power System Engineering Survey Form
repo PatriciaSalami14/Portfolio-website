@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta viewport="device-width: 1.0">
+     <link rel="stylesheet" href="styles.css2">
+     <title>Denko Power System Engineering Survey Form</title>
+</head> 
+<body>
+     <h1>Denko Power System Engineering Survey Form</h1>
+     <p>This survey form is designed by <b>Denko Power System Engineering</b> to reach out to the needs of our clients and inprove in ways that are supposed. So kindly fill out this form with the appropriate details below.
+     <p>Thank you for taking your time in inprovings our services.</p>
+<form id="survey-form">    
+     <label id="name-label" for="name">Client Name:</label>    
+     <input  id="name" type="text" placeholder="Enter your name" required /><br>
+     <label id="email-label" for="email">Email Address:</label>
+     <input  id="email" type="emil" placeholder="Enter Email" required /><br>
+     <label id="current-role" for="role">Which role  best describe your current position?</label>    
+<select id="dropdown">
+        <option value="0" selected disabled>Position</option>
+        <option value="option1">Self-employed</option>
+        <option value="option2">Employee</option>
+        <option value="option3">Individual</option>
+        <option value="option4">Others</option><br>  
+</select><br>
+     <label for="gender">Gender:</label>
+     <label><input type="radio" value="Male" name="recommend">Male</label>
+     <label><input type="radio" value="female" name="recommend">Female</label><br>
+ <label for="selection">How likely are you to recommend our engineering services to others?</label><br>
+     <lable><input type="radio" value="very likely" name="recommend">Very Likely</label><br>
+     <label><input type="radio" value="likely" name="recommend">Likely</label><br>
+     <lable><input type="radio" value="neutral" name="recommend">Neutral</label><br>
+     <lable><input type="radio" value="unlikely" name="recommend">Unlikely</label><br>
+     <lable><input type="radio" value="very unlikely" name="recommend">very Ulikely</label><br>
+ <label for="satisfaction">How satisfied are you with the services provided by our company?</label><br>
+     <lable><input type="radio" value="very satisfied" name="recommend">Very Satisfied</label><br>
+     <label><input type="radio" value="satisfied" name="recommend"></label>Satisfied<br>
+     <label><input type="radio" value="neutral" name="recommend"></label>Neutral<br>
+     <label><input type="radio" value="dissatisfied" name="recommend"></label>Dissatisfied<br>
+     <label><input type="radio" value="very dissatisfied" name="recommend"></label>Very Dissatisfied<br>
+<label for="quality">How would you rate the quality of our work?</label><br>
+    <label><input type="radio" value="excellent" name="recommend">Excellent</label><br>
+    <label><input type="radio" value="good" name="recommend">Good</label><br>
+    <label><input type="radio" value="fair" name="recommend">Fair</label><br>
+    <label><input type="radio" value="poor" name="recommend">Poor</label><br>
+    <label><input type="radio" value="very poor" name="recommend">Very Poor</label><br>
+<label for="expectations">were your needs and expectation meet and addressed?</label><br>
+    <label><input type="radio" value="yes" name="selection">Yes</label><br>
+    <label><input type="radio" value="no" name="selection">No</label><br>
+    <label><input type="radio" value="partially" name="selection">Partially</label><br>
+<label for="inprovement">What area do you think we could inprove on to better serve your needs?</label><br>
+<textarea id="comment">Type here...</textarea><br>
+<label for="challenges">Are there any specific challenges or issues you experienced during our collaboration?</label><br>
+<textarea id="comment">Type here...</textarea><br>
+<label for="comment">is there anything else you would like to share about your experience with our company?</label><br>
+<textarea id="comment">Type here...</textarea><br>
+</form>
+</body>           
+</html>    

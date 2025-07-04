@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+    color:floralwhite;
+    text-align: left;
+    padding-block: 30px;
+    }  
+#comment {
+    line-height: 30px;
+
+} 
+     

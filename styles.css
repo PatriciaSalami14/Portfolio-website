@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(173, 216, 230);
+    padding: 30px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    z-index: 1000;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+body {
+    padding-top: 60px;
+    font-family: Arial, sans-serif;
+    color: antiquewhite;
+    background-color: #1A237E;
+    text-align: center;
+}
+#welcome-section {
+    text-align: center;
+    margin-top: 60px;
+    font-family: Baskarville old face;
+    font-size: 20px;
+}
+#projects {
+    margin-top: 40px;
+    text-align: center;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.project-tile:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.project-tile {
+    background: #fff;
+    color: #170250;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 20px;
+    width: 300px;           /* Make each tile narrower */
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-sizing: border-box; /* Prevent overflow */
+}
+.project-tile img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.resume-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #170250;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration-style: solid ;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.resume-link:hover {
+    background:  rgb(158, 209, 226);
+}
+#skills ul { 
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+hr {
+    height: 5px;
+    background-color: #170250;
+    border: none;
+    margin: 30px auto;
+    width: 80%;
+}
+input,
+textarea {
+    background-color: #1A237E;
+    color: antiquewhite; /* matches your body text color */
+    border: 2px solid #170250; /* optional: for visibility */
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 50%; /* optional: adjust as needed */
+    box-sizing: border-box;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #b0b8d1; /* lighter placeholder for contrast */
+}
+#navbar a.active {
+    color: #fff;
+    background: #170250;
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: background 0.2s, color 0.2s;
+}
+#contact {
+    padding-bottom: 200px;
+}
